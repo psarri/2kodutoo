@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="spine.js"></script>
+    <title>Todo AJAXiga</title>
+</head>
+<body>
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">My To Do List</h2>
+
+        <select class="field" id="myCategory">
+          <option value="Kategooria">Kategooria</option>
+          <option value="KOOL">Kool</option>
+          <option value="TÖÖ">Töö</option>
+          <option value="PUHKUS">Puhkus</option>
+          <option value="TRENN">Trenn</option>
+          <option value="TOIT">Toit</option>
+          <option value="PERE">Pere</option>
+          <option value="SÕBRAD">Sõbrad</option>
+        </select>
+        <input class="field" type="text" id="myTitle" placeholder="Pealkiri">
+        <input class="field" type="text" id="myContent" placeholder="Sisu...">
+        <input class="field" type="date" id="myDate">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+
+      <ul style="padding-left: 0;" id="myUL">
+        <li>näide</li>
+        <li class="checked"> näide</li>
+      </ul>
+
+</body>
+</html>
