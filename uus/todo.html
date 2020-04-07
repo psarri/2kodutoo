@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script2.js"></script>
+    <title>Todo-list</title>
+</head>
+<body>
+    <div id="todo-container">
+        <form id="todo-form" class="clearfix">
+            <select id="todo_category" required>
+                <option value="KOOL">Kool</option>
+                <option value="TÖÖ">Töö</option>
+                <option value="PUHKUS">Puhkus</option>
+                <option value="TRENN">Trenn</option>
+                <option value="TOIT">Toit</option>
+                <option value="PERE">Pere</option>
+                <option value="SÕBRAD">Sõbrad</option>
+            </select>
+            <input type="text" id="todo_title" placeholder="Pealkiri">
+            <input type="text" id="todo_description" placeholder="Sisu">
+            <input type="date" id="todo_date">
+            <div class="button">
+                <input type="button" id="todo_add" value="Lisa">
+                <input type="button" id="todo_sort" value="Sorteeri Pealkirja järgi">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
